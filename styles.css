@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #444444;
+  border: 5px solid #777;
+  color: #fff;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  margin: 2em;
+  padding: 2em;
+}
+
+h1 {
+  font-weight: normal;
+  font-style: italic;
+}
+
+h2, header a, footer {
+  font-family: 'Arial Bold', Gadget, sans-serif;
+}
+
+a {
+  color: #66ce9b;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.7em;
+}
+
+header, footer {
+  text-align: center;
+}
+
+.active {
+  color: #fff;
+  text-decoration: none;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+[role="main"] {
+  border-top: 1px solid #777;
+  margin-top: 1em;
+  border-bottom: 1px solid #777;
+  margin-bottom: 1em;
+}
+
+[src='Betty-White.jpg'] {
+  border: 1px solid #777;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  padding: 4px;
+  float: right;
+}
